@@ -1,0 +1,19 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@module/*": ["src/module/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@component/*": ["src/component/*"],
+      "@assets/*": ["src/assets/*"],
+      "@theme/*": ["src/theme/*"],
+      "@db/*": ["src/db/*"],
+      "@hook/*": ["src/hook/*"],
+      "@types/*": ["src/types/*"],
+      "@service/*": ["src/service"]
+    }
+  }
+}

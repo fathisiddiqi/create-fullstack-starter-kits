@@ -1,0 +1,31 @@
+name = "api-dev"
+main = "src/index.ts"
+compatibility_date = "2025-10-06"
+compatibility_compact = ["node_js"]
+
+[vars]
+APP_ENV="development"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "<db name>"
+database_id = "<db id>"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[env.production]
+name = "api"
+
+[env.production.vars]
+APP_ENV="production"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "<db name>"
+database_id = "<db id>"
+
+[env.production.observability]
+enabled = true
+head_sampling_rate = 1
