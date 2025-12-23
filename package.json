@@ -1,14 +1,12 @@
 {
-  "name": "fullstack-starter-kits",
-  "version": "0.0.3",
+  "name": "create-fullstack-starter-kits",
+  "version": "0.0.4",
   "description": "Create fullstack starter kits from templates",
   "main": "bin/index.js",
   "bin": {
     "create-fullstack-starter-kits": "bin/index.js"
   },
-  "scripts": {
-    "publish": "pnpm publish"
-  },
+  "scripts": {},
   "keywords": [
     "fullstack",
     "starter",
