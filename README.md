@@ -14,7 +14,7 @@ npx create-fullstack-starter-kits my-project --template expo-offline
 
 This will create a new project named `my-project` using the Expo Offline App template. You can then navigate into the project directory and start development.
 
-## Available Templates
+### Available Templates
 
 - `expo-offline`: Mobile app (mobile) with offline capabilities
 - `hono-cloudflare-workers`: Backend API (backend) with serverless deployment on Cloudflare Workers

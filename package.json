@@ -1,6 +1,6 @@
 {
   "name": "create-fullstack-starter-kits",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Create fullstack starter kits from templates",
   "main": "bin/index.js",
   "bin": {
