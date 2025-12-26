@@ -9,9 +9,9 @@ const cli = cac("create-fullstack-starter-kits");
 
 const templates: Record<string, string> = {
   "expo-offline":
-    "fathisiddiqi/create-fullstack-starter-kits/expo-offline-first-app",
+    "fathisiddiqi/create-fullstack-starter-kits/templates/expo-offline-first-app",
   "hono-cloudflare-workers":
-    "fathisiddiqi/create-fullstack-starter-kits/hono-cloudflare-workers",
+    "fathisiddiqi/create-fullstack-starter-kits/templates/hono-cloudflare-workers",
 };
 
 cli
