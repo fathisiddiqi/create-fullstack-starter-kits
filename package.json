@@ -8,7 +8,7 @@
     "url": "https://github.com/fathisiddiqi/create-fullstack-starter-kits"
   },
   "bin": {
-    "create-fullstack-starter-kits": "bin/index.js"
+    "create-fullstack-starter-kits": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
